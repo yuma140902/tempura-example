@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Tempura
-        uses: baptiste0928/cargo-install@1
+        uses: baptiste0928/cargo-install@1.3.0
         with:
           crate: tempura
       - run: tempura build
